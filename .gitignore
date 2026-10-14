@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Archives / scratch (the exported GeoTIFFs under data/ ARE tracked on purpose --
+# they are small, ~0.5 MB total, and make analyze.py runnable after a clone)
+*.zip
+_edgetmp*/
